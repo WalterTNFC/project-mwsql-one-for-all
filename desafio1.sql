@@ -101,7 +101,7 @@ INSERT INTO SpotifyClone.artistas (artistas_nome) VALUES
 ('Fog');
 
 -- Adicionar informações na tabela de albuns
-INSERT INTO SpotifyClone.albuns(album_nome, artist_id, album_ano_lancamento) VALUES 
+INSERT INTO SpotifyClone.albuns(album_nome, artistas_id, album_ano_lancamento) VALUES 
 ('Envious', 1, 1990),
 ('Exuberant', 1, 1993),
 ('Hallowed Steam', 2, 1995),
@@ -157,7 +157,7 @@ INSERT INTO SpotifyClone.sons(sons_nome, album_id, tempo_segundos) VALUES
 ('You Make Me Feel So..', 10, 83);
 
 -- Adicionar informações na tabela de historico
-INSERT INTO SpotifyClone.historico_reproducao(usuario_id, sons_id, historico_reproducao) VALUES
+INSERT INTO SpotifyClone.historico_reproducao(usuario_id, sons_id, reproducao_data) VALUES
 (1, 36, '2020-02-28 10:45:55'),
 (1, 25, '2020-05-02 05:30:35'),
 (1, 23, '2020-03-06 11:22:33'),
