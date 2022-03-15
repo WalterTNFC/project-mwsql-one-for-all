@@ -84,11 +84,11 @@ INSERT INTO SpotifyClone.usuario (usuario_nome, usuario_data_assinatura, usuario
 ('Cintia', '2017-12-30', 35, 2), 
 ('Bill', '2019-06-05', 20, 4), 
 ('Roger', '2020-05-13', 45, 3),
-('Norman', '2017-02-17', 58, 2),
+('Norman', '2017-02-17', 58, 3),
 ('Patrick', '2017-01-06', 33, 2),
 ('Vivian', '2018-01-05', 26, 4),
 ('Carol', '2018-02-14', 19, 4),
-('Argelina', '2018-04-29', 42, 2),
+('Angelina', '2018-04-29', 42, 2),
 ('Paul', '2017-01-17', 46, 2);
 
 -- Adicionar informações na tabela de artistas
@@ -141,7 +141,7 @@ INSERT INTO SpotifyClone.sons(sons_nome, album_id, tempo_segundos) VALUES
 ('Finding My Traditions', 7, 179),
 ('Walking And Man', 7, 229),
 ('Hard And Time', 7, 135),
-('Honey. Im A Lone Wolf', 7, 150),
+("Honey. I'm A Lone Wolf", 7, 150),
 ('She Thinks I Wint Stay Toninght', 8, 166),
 ('He Heard Youre Bad For Me', 8, 154),
 ('He Hopes We Cant Stay', 8, 210),
